@@ -1,0 +1,30 @@
+.searchInput {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  width: 20vw;
+  height: 2rem;
+  margin: 0px auto;
+
+  input {
+    width: 100%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    height: 100%;
+    width: 35px;
+    transition: all .3s;
+
+    &:active {
+      background-color: rgb(212, 212, 212);
+    }
+  }
+}
